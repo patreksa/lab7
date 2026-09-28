@@ -19,7 +19,7 @@ namespace MyApp.Tests
 
         [TestMethod]
         [Description("QSort: Массив, отсортированный в обратном порядке")]
-        public void TestQSort_ReverseSorted(
+        public void TestQSort_ReverseSorted()
         {
             int[] arr = { 10, 9, 8, 7, 6 };
             int[] expected = { 6, 7, 8, 9, 10 };
